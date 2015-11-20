@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>DEMO</title>
+    <link href="web.css" type="text/css" rel="stylesheet" />
+    <script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+    <script src="unslider.js"></script>
+</head>
+<body>
+<div class="whole_header">
+    <div class="header_inner">
+        <div class="logo" >
+            <img  src="img/logo2.jpg">
+        </div>
+        <div class="whole_menu">
+            <div class="menu">
+                <a class="header_title" href="/">首页</a>
+                <a class="header_title" href="/">节目</a>
+                <a class="header_title" href="/">主播</a>
+                <a class="header_title" href="/">墙</a>
+            </div>
+            <div class="button">
+                <a class="button1" href="/">投稿</a>
+                <a class="button1" href="/">点歌</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="content">
+    <div class="banner" >
+        <ul>
+            <li><img src="img/1.png"></li>
+            <li><img src="img/2.jpg" ></li>
+            <li><img src="img/3.jpg"></li>
+            <li><img src="img/4.jpg"></li>
+        </ul>
+        </div>
+    <div class="main_program">
+    <div class="program">
+        <div class="program_title">
+            <a class="title0" href="/">节目</a>
+        </div>
+        <ul class="program_contant">
+            <li>
+                <a href="/">
+                    <img   src="img/5X.png">
+                </a>
+                <p  class="program_list_title" >
+                    <a href="/">NEXUS5</a>
+                </p>
+            </li>
+            <li>
+                <a href="/">
+                    <img src="img/6.jpg">
+                </a>
+                <p class="program_list_title">
+                    <a  href="/">NEXUS6</a>
+                </p>
+            </li>
+            <li style="margin-right: 0px;">
+                <a href="/">
+                    <img src="img/6P.png">
+                </a>
+                <p  class="program_list_title">
+                    <a href="/">NEXUS6p</a>
+                </p>
+            </li>
+        </ul>
+    </div>
+    </div>
+    <div class="main_wall">
+        <div class="wall">
+            <div class="wall_title">
+                <a class="title0" href="/">墙</a>
+                <a class="title1" href="/">失物</a>
+                <a class="title1" href="/">表白</a>
+                <a class="title1" href="/">吐槽</a>
+            </div>
+            <div class="wall_content">
+                <ul>
+                    <li class="paper">
+                        <a href="#">
+                            <h3>蛤蛤蛤：</h3>
+                            <p>我是便签1</p>
+                        </a>
+                    </li>
+                    <li class="paper">
+                        <a href="#">
+                            <h3>蛤蛤蛤：</h3>
+                            <p>我是便签2</p>
+                        </a>
+                    </li>
+                    <li class="paper" style="margin-right: 0px;">
+                        <a href="#">
+                            <h3>蛤蛤蛤：</h3>
+                            <p>我是便签3</p>
+                        </a>
+                    </li>
+                    <li class="paper">
+                        <a href="#">
+                            <h3>蛤蛤蛤：</h3>
+                            <p>我是便签4</p>
+                        </a>
+                    </li>
+                    <li class="paper">
+                        <a href="#">
+                            <h3>蛤蛤蛤：</h3>
+                            <p>我是便签5</p>
+                        </a>
+                    </li>
+                    <li class="paper" style="margin-right: 0px;">
+                        <a href="#">
+                            <h3>蛤蛤蛤：</h3>
+                            <p>我是便签6</p>
+                     </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    </div>
+</div>
+<div class="footer2">
+<div class="whole_footer">
+    <div class="footer">
+    <ul>
+        <li style="margin-bottom:20px">友情链接:</li>
+        <li  class="footer1"><a href="#">合肥工业大学</a></li>
+    </ul>
+    </div>
+    <div class="footer">
+     <ul>
+        <li class="footer1"><a  href="#">关于我们</a> </li>
+        <li class="footer1"><a  href="#">加入我们</a> </li>
+        <li class="footer1"><a   href="#">关于RHFUT</a></li>
+     </ul>
+    </div>
+    <div class="footer">
+    <ul>
+        <li class="footer1"><a  href="#">关注我们</a></li>
+        <li class="footer1"><a  href="#">新浪微博</a></li>
+        <li class="footer1"><a  href="#">联系我们</a></li>
+    </ul>
+    </div>
+    <div class="footer" style="margin-right: 0px;">
+        <img src="img/wechat.png">
+    </div>
+</div>
+</div>
+<script>
+    $('.banner').unslider({
+        speed: 500,               // 动画的滚动速度
+        delay: 3000,              //  每个滑块的停留时间
+        complete: function() {},  //  每个滑块动画完成时调用的方法
+        keys: true,               //  是否支持键盘
+        dots: true,               //  是否显示翻页圆点
+        fluid: false              //  支持响应式设计（有可能会影响到响应式）
+    });
+</script>
+</body>
+</html>
